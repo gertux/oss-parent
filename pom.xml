@@ -118,6 +118,11 @@
 						</goals>
 					</execution>
 				</executions>
+                <configuration>
+                    <getRevisionOnlyOnce>true</getRevisionOnlyOnce>
+                    <timestampFormat>{0,date,yyyy-MM-dd HH:mm:ss}</timestampFormat>
+                    <revisionOnScmFailure>UNKNOWN</revisionOnScmFailure>
+                </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -130,6 +135,7 @@
 						<manifestEntries>
 							<Implementation-Vendor-Id>${project.groupId}/${project.artifactId}</Implementation-Vendor-Id>
 							<Implementation-Build>${buildNumber}</Implementation-Build>
+                            <Implementation-BuildTime>${timestamp}</Implementation-BuildTime>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -145,6 +151,7 @@
 						<manifestEntries>
 							<Implementation-Vendor-Id>${project.groupId}/${project.artifactId}</Implementation-Vendor-Id>
 							<Implementation-Build>${buildNumber}</Implementation-Build>
+                            <Implementation-BuildTime>${timestamp}</Implementation-BuildTime>
 						</manifestEntries>
 					</archive>
 				</configuration>
