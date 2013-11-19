@@ -9,7 +9,7 @@
 
 	<groupId>be.hobbiton</groupId>
 	<artifactId>oss-parent</artifactId>
-	<version>7.0</version>
+	<version>7.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>hobbiton OSS Parent</name>
