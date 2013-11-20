@@ -157,4 +157,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/gertux/oss-parent/issues</url>
+	</issueManagement>
 </project>
