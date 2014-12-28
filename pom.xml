@@ -9,7 +9,7 @@
 
 	<groupId>be.hobbiton</groupId>
 	<artifactId>oss-parent</artifactId>
-	<version>9.0</version>
+	<version>9.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>hobbiton OSS Parent</name>
@@ -28,7 +28,7 @@
 		<connection>scm:git:git@github.com:gertux/oss-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:gertux/oss-parent.git</developerConnection>
 		<url>scm:git:git@github.com:gertux/oss-parent.git</url>
-	  <tag>oss-parent-9.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<organization>
